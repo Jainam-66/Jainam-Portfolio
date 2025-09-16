@@ -1,17 +1,16 @@
 {
-  "homepage": "https://Jainam-66.github.io",
+  "homepage": "https://Jainam-66.github.io/Jainam-Portfolio",
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "npm run dev",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
