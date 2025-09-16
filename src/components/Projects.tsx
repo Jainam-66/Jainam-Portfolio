@@ -1,4 +1,9 @@
 import React from 'react';
+import CreditCardFraudDetectionRepImage from '../assets/CreditCardFraudDetectionRepImage.png';
+import CustomObjectDetectionRepImage from '../assets/CustomObjectDetectionRepImage.png';
+import RailVisionRepImage from '../assets/RailVisionRepImage.png';
+import SignSightRepImage from '../assets/SignSightRepImage.png';
+import StockPerformanceRepImage from '../assets/StockPerformanceRepImage.png';
 import { ExternalLink, Github } from 'lucide-react';
 
 const Projects = () => {
@@ -6,7 +11,7 @@ const Projects = () => {
     {
       title: 'Sign Sight',
       description: 'An AI-powered American Sign Language (ASL) interpreter that uses a Convolutional Neural Network (CNN) trained on 10,000+ custom-labeled hand sign images to recognize and translate the first 14 English alphabet signs in real-time through a webcam feed.',
-      image: 'SignSightRepImage.png',
+      image: SignSightRepImage,
       technologies: ['Python', 'AWS', 'Computer Vision', 'CNN'],
       githubUrl: 'https://github.com/Jainam-66/SignSight',
       liveUrl: 'https://dai.ly/klVkJ8TSeXRK2eyxqxP',
@@ -15,7 +20,7 @@ const Projects = () => {
     {
       title: 'Railvision',
       description: 'RailVision uses AI-powered computer vision to make railway platforms safer by tracking people in real time, detecting trespassing incidents, and alerting authorities instantly. It also visualizes passenger flow with heatmaps to help optimize platform management',
-      image: 'RailVisionRepImage.png',
+      image: RailVisionRepImage,
       technologies: ['Python', 'Computer Vision', 'DeepSORT'],
       githubUrl: 'https://github.com/Jainam-66/RailVision',
       liveUrl: 'https://example.com',
@@ -24,7 +29,7 @@ const Projects = () => {
     {
       title: 'Stock Performance and Sentiment Analysis Tool',
       description: 'A tool that analyzes stock performance and sentiment from news articles using NLP techniques.',
-      image: 'StockPerformanceRepImage.png',
+      image: StockPerformanceRepImage,
       technologies: ['Python', 'yfinance', 'Cohere AI', 'NewsApiClient', 'NLP', 'Sentiment Analysis', 'API Integration'],
       githubUrl: 'https://github.com/Jainam-66/Stock-Sense-AI',
       liveUrl: 'https://example.com',
@@ -33,7 +38,7 @@ const Projects = () => {
     {
       title: 'Custom Object Detection',
       description: 'A tool for detecting and classifying objects in images using deep learning techniques.',
-      image: 'CustomObjectDetectionRepImage.png',
+      image: CustomObjectDetectionRepImage,
       technologies: ['Python', 'TensorFlow', 'OpenCV', 'Deep Learning', 'Computer Vision'],
       githubUrl: 'https://github.com/Jainam-66/Custom-object-detection',
       liveUrl: 'https://example.com',
@@ -42,7 +47,7 @@ const Projects = () => {
     {
       title: 'Credit Card Fraud Detection',
       description: 'A web application that detects fraudulent credit card transactions using machine learning algorithms and provides visualizations of transaction data.',
-      image: 'CreditCardFraudDetectionRepImage.png',
+      image: CreditCardFraudDetectionRepImage,
       technologies: ['Python', 'Scikit-learn', 'Pandas', 'Matplotlib', 'Seaborn'],
       githubUrl: 'https://github.com/Jainam-66/Credit_Card_Fraud_Detection',
       liveUrl: 'https://example.com',
